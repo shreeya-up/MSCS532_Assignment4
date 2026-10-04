@@ -26,3 +26,12 @@ def heap_sort(arr):
     for i in range(n - 1, 0, -1):               # Extract elements from the heap one by one
         arr[0], arr[i] = arr[i], arr[0]         # Move current root to end
         heapify(arr, i, 0)                      # Call heapify on the reduced heap
+
+    return arr
+
+if __name__ == "__main__":
+    arr = [64, 34, 25, 12, 22, 11, 90]          # Example array
+    print("Initial array:", arr)
+    sorted_arr = heap_sort(arr)
+    print("Sorted array:", sorted_arr)          # Returns [11, 12, 22, 25, 34, 64, 90]
+    
