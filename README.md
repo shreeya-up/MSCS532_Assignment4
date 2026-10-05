@@ -6,13 +6,13 @@ Earliest-Deadline-First (EDF) task scheduler simulation.
 
 ## Files
 
-`heap_sort.py` contains the Heapsort implementation (`build_max_heap`, `heapify`, `heap_sort`).
+`heap_sort.py` contains the Heapsort implementation (`heapify`, `heap_sort`).
 `benchmark.py` compares Heapsort, Quicksort, and Merge Sort across input sizes and
 distributions, and outputs `results.png`. `priority_queue.py` holds the array-based
 min-heap priority queue (`Task` and `PriorityQueue` classes), while `demo_operations.py`
 provides a simple walkthrough of all four priority queue operations. `scheduler.py`
 contains the EDF scheduler simulation built on top of the priority queue. Finally,
-`Priority_Queue_Report.docx` is the written report covering design choices, complexity
+`Assignment_4_Analysis,pdf` is the written report covering design choices, complexity
 analysis, and scheduling results.
 
 ## How to Run
